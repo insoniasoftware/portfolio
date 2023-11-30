@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "insonia-portfolio:build:production"
+              "buildTarget": "insonia-portfolio:build:production"
             },
             "development": {
-              "browserTarget": "insonia-portfolio:build:development"
+              "buildTarget": "insonia-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "insonia-portfolio:build"
+            "buildTarget": "insonia-portfolio:build"
           }
         },
         "test": {
